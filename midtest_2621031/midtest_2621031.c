@@ -35,7 +35,7 @@ void data_input() {
 	gotoxy(24, 1); printf("Data Input");
 	gotoxy(23, 18); printf("Press Any key to Main Menu");
 	gotoxy(0, 25);
-
+	_getch();
 }
 void data_output() {
 	clrscr();
@@ -43,6 +43,7 @@ void data_output() {
 	gotoxy(24, 1); printf("Data Output");
 	gotoxy(23, 18); printf("Press Any key to Main Menu");
 	gotoxy(0, 25);
+	_getch();
 }
 void data_search() {
 	clrscr();
@@ -50,6 +51,7 @@ void data_search() {
 	gotoxy(24, 1); printf("Data Search");
 	gotoxy(23, 18); printf("Press Any key to Main Menu");
 	gotoxy(0, 25);
+	_getch();
 }
 void bye() {
 	clrscr();
